@@ -1,0 +1,13 @@
+[
+  { "slug": "godaddy", "regulars": [ "godaddy.com" ] },
+  { "slug": "name-com", "regulars": [ "Name.com" ] },
+  { "slug": "now-cn", "regulars": [ "now.cn" ] },
+  { "slug": "ename", "regulars": [ "ename." ] },
+  { "slug": "xinnet", "regulars": [ "xinnet.com." ] },
+  { "slug": "35-com", "regulars": [ "35.com" ] },
+  { "slug": "cndns", "regulars": [ "cndns." ] },
+  { "slug": "cndns-com", "regulars": [ "ezdnscenter." ] },
+  { "slug": "aliyun-domain", "regulars": [ "阿里云", "万网", "aliyun."] },
+  { "slug": "dnspod", "regulars": [ "dnspod.net", "ns3.dnsv", "ns\\d?.dnsv\\d.com" ] },
+  { "slug": "aliyun-dns", "regulars": [ "dns\\d?.hichina.com", "ns\\d?.aliyun.com", "alidns.com" ] }
+]

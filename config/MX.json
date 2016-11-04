@@ -1,0 +1,16 @@
+[
+  { "slug": "office365", "regulars": [ "outlook" ] },
+  { "slug": "exmail-qq", "regulars": [ "qq.com" ] },
+  { "slug": "qiye163", "regulars": [ "qiye.?163", "163vip.net" ] },
+  { "slug": "ym163", "regulars": [ "ym.163" ] },
+  { "slug": "alimail", "regulars": [ "mxhichina." ] },
+  { "slug": "dns-com-cn", "regulars": [ "dns.com.cn" ] },
+  { "slug": "dreamhost", "regulars": [ "dreamhost.com" ] },
+  { "slug": "263xmail", "regulars": [ "263xmail.", "263.net" ] },
+  { "slug": "google-apps", "regulars": [ "googlemail.", "google." ] },
+  { "slug": "zoho-mail", "regulars": ["zoho(mail)?.com"] },
+  { "slug": "fastmail", "regulars": ["messagingengine.com"] },
+  { "slug": "godaddy", "regulars": ["secureserver.net"] },
+  { "slug": "mailgun.", "regulars": ["mailgun."] },
+  { "slug": "sendcloud.", "regulars": ["sendcloud"] }
+]
