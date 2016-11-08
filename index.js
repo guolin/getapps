@@ -1,9 +1,7 @@
-var mx = require('./dist/mx.js');
-var domain = require('./dist/domain.js');
-var ip = require('./dist/ip.js');
-var page = require('./dist/page.js');
+var ga = require('./dist/index.js')
 
-mx.crawlMX('pubu.im').then(function(r){console.log(r)});
-domain.crawlDomain('pubu.im').then(function(r){console.log(r)});
-ip.crawlIP('pubu.im').then(function(r){console.log(r)});
-page.crawlPage('https://pubu.im').then(function(r){console.log(r)});
+const URL = process.argv.slice(2)[0];
+
+console.log('url is ', URL);
+
+ga.getApps(URL).then(console.log);

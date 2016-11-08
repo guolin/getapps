@@ -9,14 +9,14 @@ function passRules(data) {
         if(pattern.exec(data)) products.add(config.slug);
       })
     }) 
-  return products;
+  return Array.from(products);
 }
 
 function crawlDomain(domain) {
   return new Promise((resolve) => {
     whois.lookup(domain, (err, data) => {
       if (err) return resolve({ type: 'error', error: err });
-      return resolve({ type: 'done', result: passRules(data) });
+      return resolve(passRules(data));
     });
   });
 }
