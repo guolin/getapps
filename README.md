@@ -8,11 +8,12 @@
 ```
 $ npm install getapps
 
-import getApps form ‘getapps’
+var getApps =  require('getapps').getApps;
+var domain = 'mulumu.com';
 
 // 输入一个公司的域名
 getApps(domain)
-.then(function(apps) => {
+.then(function(apps){
   console.log('domain use ', apps);
 })
 
@@ -24,7 +25,7 @@ getApps(domain)
 npm install -g getapps
 
 # 公司域名作为参数
-$ get-using mulumu.com
+$ getapps mulumu.com
 ```
 
 
