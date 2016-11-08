@@ -1,7 +1,7 @@
 {
   "name": "getapps",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.3",
+  "description": "get business apps only with domain",
   "main": "dist/index.js",
   "bin": "./cli.js",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guolin/using-app.git"
+    "url": "git+https://github.com/guolin/getapps.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/guolin/using-app/issues"
+    "url": "https://github.com/guolin/getapps/issues"
   },
-  "homepage": "https://github.com/guolin/using-app#readme",
+  "homepage": "https://github.com/guolin/getapps#readme",
   "dependencies": {
     "lib-qqwry": "^1.0.0",
     "node-fetch": "^1.6.3",
