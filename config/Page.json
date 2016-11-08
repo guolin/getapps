@@ -1,0 +1,38 @@
+{
+  "headers-server": [
+    { "slug": "nginx", "regulars": ["^nginx"] },
+    { "slug": "apache", "regulars": ["apache"] },
+    { "slug": "Tengine.", "regulars": ["Tengine"] },
+    { "slug": "ms-iis", "regulars": ["iis"] },
+    { "slug": "openresty", "regulars": ["openresty"] }
+  ],
+  "headers-x-powered-by": [
+    { "slug": "expressjs", "regulars": ["express"] },
+    { "slug": "php", "regulars": ["php"] },
+    { "slug": "asp", "regulars": ["asp"] }
+  ],
+  "content": [
+    { "slug": "ga", "regulars": ["google-analytics.com"] },
+    { "slug": "oneapm", "regulars": ["window.BWEUM"] },
+    { "slug": "newrelic", "regulars": ["window.NREUM", "NREUMQ.push"] },
+    { "slug": "richapm", "regulars": ["js\\/rich_apm"] },
+    { "slug": "51la", "regulars": ["js.users.51.la"] },
+    { "slug": "cnzz", "regulars": ["tongji.cnzz.com\\/"] },
+    { "slug": "zhugeio", "regulars": ["zgsdk.zhugeio.com"] },
+    { "slug": "sensorsdata", "regulars": ["sensorsdata.cn\\/sdk"] },
+    { "slug": "baidutongji", "regulars": ["hm.baidu.com"] },
+    { "slug": "upyun", "regulars": ["upaiyun"] },
+    { "slug": "qiniu", "regulars": ["qiniu", "qbox.me", "clouddn.com"] },
+    { "slug": "growingio", "regulars": ["dn-growing.qbox.me"] },
+    { "slug": "meiqia", "regulars": ["meiqia.js"] },
+    { "slug": "b-qq", "regulars": [".qq.com\\/webc.htm"] },
+    { "slug": "qiao-baidu", "regulars": ["qiao.baidu.com"] },
+    { "slug": "qiyukf", "regulars": ["qiyukf.com", "ysf.open\\(\\)"] },
+    { "slug": "sobot", "regulars": ["sobot.com\\/chat"] },
+    { "slug": "zoosnet-net", "regulars": ["zoosnet.net\\/JS\\/Ls"] },
+    { "slug": "live800", "regulars": ["live800.com\\/(\\w)*\\/chatClient"] },
+    { "slug": "jiaxincloud-com", "regulars": ["web.jiaxincloud.com\\/mcs.js"] },
+    { "slug": "udesk", "regulars": ["udesk.cn\\/im_client"] },
+    { "slug": "kf5", "regulars": ["assets.kf5.com\\/supportbox\\/main.js"] }
+  ]
+}

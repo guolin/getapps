@@ -1,0 +1,11 @@
+[
+  { "slug": "aliyun", "regulars": [ "阿里" ] },
+  { "slug": "yunaq", "regulars": [ "加速乐" ] },
+  { "slug": "amazon-aws", "regulars": [ "Amazon" ] },
+  { "slug": "21vianet", "regulars": [ "世纪互联" ] },
+  { "slug": "idccun", "regulars": [ "互联港湾" ] },
+  { "slug": "chinacache", "regulars": [ "蓝汛" ] },
+  { "slug": "qcloud", "regulars": [ "腾讯", "康盛新创" ] },
+  { "slug": "cloudvsp", "regulars": [ "天地祥云.", "众生网络", "广西视虎" ] },
+  { "slug": "azure", "regulars": [ "Azure" ] }
+]
